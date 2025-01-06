@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+.header img {
+    display: block;
+
+}
+
+.section h2 {
+    background-color: #a41e1e;
+    color: white;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    grid-column: span 4;
+    padding: 10px;
+    background-color: #a41e1e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #871717;
+}
+
+.examples {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
